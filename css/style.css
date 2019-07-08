@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:after, *:before{
+    box-sizing: inherit;
+  }
+  
+  body{
+    align-items: center;
+    background-color: #2C2141;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 16px;
+  }
+  
+  .card {
+    align-items: flex-start;
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    display: flex;
+    padding: 32px;
+    max-width: 624px;
+    width: 100%
+  }
+  
+  .card__photo {
+    margin-right: 32px;
+  }
+  
+  .footer__link {
+    color: #E20613;
+    text-decoration: none;
+  }
+  
+  .person__description {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 16px;
+  }
+  
+  .person__description--orange {
+    color: #ED6D05;
+  }
+  
+  .person__footer {
+    margin: 0;
+  }
+  
+  .person__name {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .person__title {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 21px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
